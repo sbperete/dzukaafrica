@@ -9,6 +9,52 @@
 <style>
 body {font-family: "Lato", sans-serif}
 .mySlides {display: none}
+div.gallery {
+  border: 1px solid #ccc;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
 </style>
 <body class="w3-mobile">
 
@@ -134,7 +180,7 @@ body {font-family: "Lato", sans-serif}
 
       <div class="w3-row-padding w3-padding-32" style="margin:0 -16px">
         <div class="w3-half w3-margin-bottom w3-card">
-          <img src="/w3images/newyork.jpg" alt="Blantyre City" style="width:100%" class="w3-hover-opacity">
+          <img src="https://sbperete.github.io/dzukaafrica/images/blantyre007.jpg" alt="Blantyre City" style="width:100%" class="w3-hover-opacity">
           <div class="w3-container w3-white">
             <p><b>Blantyre</b></p>
             <p class="w3-opacity">Fri 27 Nov 2019</p>
@@ -143,7 +189,7 @@ body {font-family: "Lato", sans-serif}
           </div>
         </div>
         <div class="w3-half w3-margin-bottom w3-card">
-          <img src="/w3images/limbe.jpg" alt="Limbe" style="width:100%" class="w3-hover-opacity">
+          <img src="https://sbperete.github.io/dzukaafrica/images/limbe001.jpg" alt="Limbe" style="width:100%" class="w3-hover-opacity">
           <div class="w3-container w3-white">
             <p><b>Limbe</b></p>
             <p class="w3-opacity">Sat 28 Nov 2019</p>
@@ -228,6 +274,51 @@ body {font-family: "Lato", sans-serif}
           </div>
         </div>
 	</div>
+  </div>
+  
+  <!-- The Gallery Section -->
+  <div class="w3-container w3-content w3-padding-54 w3-card-2" style="max-width:1200px" id="startupgrind">
+    <h2 class="w3-wide w3-center">DZUKA Gallery</h2>
+    <div class="responsive">
+       <div class="gallery">
+          <a target="_blank" href="https://sbperete.github.io/dzukaafrica/images/artist.jpg">
+              <img src="https://sbperete.github.io/dzukaafrica/images/artist.jpg" alt="Artist Work" width="600" height="400">
+          </a>
+          <div class="desc"> Artist Work </div>
+        </div>
+    </div>
+	<div class="responsive">
+       <div class="gallery">
+          <a target="_blank" href="https://sbperete.github.io/dzukaafrica/images/training.jpg">
+              <img src="https://sbperete.github.io/dzukaafrica/images/training.jpg" alt="Training Session" width="600" height="400">
+          </a>
+          <div class="desc"> Training Session</div>
+        </div>
+    </div>
+	<div class="responsive">
+       <div class="gallery">
+          <a target="_blank" href="https://sbperete.github.io/dzukaafrica/images/tailor.jpg">
+              <img src="https://sbperete.github.io/dzukaafrica/images/tailor.jpg" alt="Tailoring Session" width="600" height="400">
+          </a>
+          <div class="desc">Tailoring Session</div>
+        </div>
+    </div>
+	<div class="responsive">
+       <div class="gallery">
+          <a target="_blank" href="https://sbperete.github.io/dzukaafrica/images/robotics.jpg">
+              <img src="https://sbperete.github.io/dzukaafrica/images/robotics.jpg" alt="Robotics Space" width="600" height="400">
+          </a>
+          <div class="desc"> Robotics Space</div>
+        </div>
+    </div>
+	<div class="responsive">
+       <div class="gallery">
+          <a target="_blank" href="https://sbperete.github.io/dzukaafrica/images/students.jpg">
+              <img src="https://sbperete.github.io/dzukaafrica/images/students.jpg" alt="Students Session" width="600" height="400">
+          </a>
+          <div class="desc"> Students Session</div>
+        </div>
+    </div>
   </div>
   
   
