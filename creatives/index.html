@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>DZUKA AFRICA</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body {font-family: "Lato", sans-serif}
+.mySlides {display: none}
+div.gallery {
+  border: 1px solid #ccc;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+</style>
+<body class="w3-mobile">
+
+<!-- Navbar -->
+<div class="w3-top w3-mobile">
+  <div class="w3-bar w3-lime w3-card w3-mobile">
+    <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+    <a href="http://dzukaafrica.org/#" class="w3-bar-item w3-button w3-padding-large">HOME</a>
+    <a href="http://dzukaafrica.org/#startme" class="w3-bar-item w3-button w3-padding-large w3-hide-small">Start Me Up</a>
+    <a href="http://dzukaafrica.org/#aboutus" class="w3-bar-item w3-button w3-padding-large w3-hide-small">About Us</a>
+    <a href="http://dzukaafrica.org/#contact" class="w3-bar-item w3-button w3-padding-large w3-hide-small">Contact Us</a>
+    <div class="w3-dropdown-hover w3-hide-small">
+      <button class="w3-padding-large w3-button" title="More">MORE <i class="fa fa-caret-down"></i></button>     
+      <div class="w3-dropdown-content w3-bar-block w3-card-4">        
+        <a href="http://dzukaafrica.org/#events" class="w3-bar-item w3-button">Events</a>
+		<a href="http://dzukaafrica.org/pitch/" class="w3-bar-item w3-button">Pitch Night</a>
+        <a href="http://dzukaafrica.org/#startupgrind" class="w3-bar-item w3-button">Start up Grind</a>
+		<a href="http://dzukaafrica.org/#gallery" class="w3-bar-item w3-button">Gallery</a>
+		<a href="http://dzukaafrica.org/#sponsors" class="w3-bar-item w3-button">Partners</a>
+		<a href="http://dzukaafrica.org/alumni/" class="w3-bar-item w3-button">Alumni</a>
+      </div>
+    </div>
+    <!--<a href="javascript:void(0)" class="w3-padding-large w3-hover-red w3-hide-small w3-right"><i class="fa fa-search"></i></a> -->
+  </div>
+</div>
+
+<!-- Navbar on small screens (remove the onclick attribute if you want the navbar to always show on top of the content when clicking on the links) -->
+<div id="navDemo" class="w3-bar-block w3-lime w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:46px">
+  <a href="#band" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">Start Me Up</a>
+  <a href="#about" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">About Us</a>
+  <a href="#contact" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">Contact Us</a>
+  <a href="#" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">MORE</a>
+</div>
+
+<br> 
+  <!-- The Gallery Section -->
+  <div class="w3-container w3-content w3-padding-54 w3-card-2 w3-khaki" style="max-width:1200px" id="gallery">
+    <br>
+	<h2 class="w3-wide w3-center"><b>Pitch Night</b></h2>
+	<div class="w3-card">
+		<h2 class="w3-jumbo w3-text-white w3-blue w3-center"><b>Our Community Pitch Night</b> </h2>
+		<div class="w3-card w3-center ">
+			<button class="w3-button w3-round-xxlarge w3-borders w3-lime"> <b>190 </b><i>Scholars/ Social Entreprenuers</i></button>
+			<button class="w3-button w3-round-xxlarge w3-borders w3-blue"> <b>201 </b><i>Mentees</i></button>
+			<button class="w3-button w3-round-xxlarge w3-borders w3-orange"><b> 43 </b><i>Active Members</i></button>
+			<button class="w3-button w3-round-xxlarge w3-borders w3-light-green"><b> 56</b> <i>Alumni</i></button>
+		</div>
+	</div>
+	<div class="responsive">
+       <div class="gallery">
+          <a target="_blank" href="https://sbperete.github.io/dzukaafrica/images/pitch/judges.jpg">
+              <img src="https://sbperete.github.io/dzukaafrica/images/pitch/judges.jpg" alt="Pitch Night Judges" width="400" height="400">
+          </a>
+          <div class="desc"> Judges listening to a pitch</div>
+        </div>
+    </div>
+    <div class="responsive">
+       <div class="gallery">
+          <a target="_blank" href="https://sbperete.github.io/dzukaafrica/images/pitch/audience.jpg">
+              <img src="https://sbperete.github.io/dzukaafrica/images/pitch/audience.jpg" alt="Pitch Night Audience" width="400" height="400">
+          </a>
+          <div class="desc">Pitch Night audience listening</div>
+        </div>
+    </div>
+	
+	<div class="responsive">
+       <div class="gallery">
+          <a target="_blank" href="https://sbperete.github.io/dzukaafrica/images/pitch/winners.jpg">
+              <img src="https://sbperete.github.io/dzukaafrica/images/pitch/winners.jpg" alt="Pitch Night Winners">
+          </a>
+          <div class="desc">Technology</div>
+        </div>
+    </div>
+	
+	
+  </div>
+<br> 
+  
+  
+<!-- Footer -->
+<footer class="w3-container w3-padding-64 w3-center w3-opacity w3-light-grey w3-xlarge" id="links">
+  <a href="https://web.facebook.com/dzukaafrica/"><i class="fa fa-facebook-official w3-hover-opacity w3-xlarge"></i></a>
+  <a href="https://web.facebook.com/dzukaafrica/"><i class="fa fa-instagram w3-hover-opacity w3-xlarge" ></i></a>
+  <i class="fa fa-snapchat w3-hover-opacity w3-xlarge"></i>
+  <i class="fa fa-pinterest-p w3-hover-opacity w3-xlarge"></i>
+  <a href="https://twitter.com/dzukaafrica?lang=en"><i class="fa fa-twitter w3-hover-opacity w3-xlarge"></i></a>
+  <a href="https://www.linkedin.com/in/dineo-katane-mkwezalamba-63580867/detail/recent-activity/shares/"><i class="fa fa-linkedin w3-hover-opacity w3-xlarge"></i></a>
+  <p class="w3-medium">&copy; Dzuka Africa 2019. All Rights Reserved.</p>
+</footer>
+
+<script>
+// Automatic Slideshow - change image every 4 seconds
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}    
+  x[myIndex-1].style.display = "block";  
+  setTimeout(carousel, 4000);    
+}
+
+// Used to toggle the menu on small screens when clicking on the menu button
+function myFunction() {
+  var x = document.getElementById("navDemo");
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else { 
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+
+// When the user clicks anywhere outside of the modal, close it
+var modal = document.getElementById('ticketModal');
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+</script>
+
+</body>
+</html>
